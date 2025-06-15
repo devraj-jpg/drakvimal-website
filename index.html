@@ -43,18 +43,18 @@
     ></iframe>
 
     <h3>📬 Contact Form</h3>
-    <form>
-      <input type="text" placeholder="Your Name" required><br>
-      <input type="email" placeholder="Your Email" required><br>
-      <textarea placeholder="Your Message" required></textarea><br>
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="text" name="name" placeholder="Your Name" required><br>
+      <input type="email" name="email" placeholder="Your Email" required><br>
+      <textarea name="message" placeholder="Your Message" required></textarea><br>
       <button type="submit">Send Message</button>
     </form>
 
     <h3>🌟 Patient Feedback</h3>
-    <form>
-      <input type="text" placeholder="Your Name" required><br>
-      <input type="number" placeholder="Rating (1-5)" min="1" max="5" required><br>
-      <textarea placeholder="Your Feedback" required></textarea><br>
+    <form name="feedback" method="POST" data-netlify="true">
+      <input type="text" name="name" placeholder="Your Name" required><br>
+      <input type="number" name="rating" placeholder="Rating (1-5)" min="1" max="5" required><br>
+      <textarea name="feedback" placeholder="Your Feedback" required></textarea><br>
       <button type="submit">Submit Feedback</button>
     </form>
 
