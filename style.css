@@ -23,6 +23,13 @@ button {
   margin-top: 10px;
   cursor: pointer;
 }
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 footer {
   margin-top: 40px;
   font-size: 0.9em;
